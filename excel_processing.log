@@ -1,0 +1,45 @@
+2025-05-27 15:06:02,778 [INFO] Reading Excel file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx
+2025-05-27 15:06:12,086 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-27 15:06:12,180 [INFO] Calculating 'Count' column
+2025-05-27 15:06:12,204 [INFO] Filtered rows where Count == 1: 0
+2025-05-27 15:06:12,204 [INFO] Unique VINs extracted: 0
+2025-05-27 15:06:12,204 [INFO] Writing VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-27 15:06:12,237 [INFO] Processing completed successfully.
+2025-05-27 15:28:50,296 [INFO] Reading Excel file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx
+2025-05-27 15:29:00,035 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-27 15:29:00,134 [INFO] Calculating 'Count' column
+2025-05-27 15:29:00,157 [INFO] Filtered rows where Count == 1: 999
+2025-05-27 15:29:00,157 [INFO] Unique VINs extracted: 988
+2025-05-27 15:29:00,158 [INFO] Writing VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-27 15:29:00,214 [INFO] Processing completed successfully.
+2025-05-27 15:36:38,773 [INFO] Reading Excel file...
+2025-05-27 15:36:48,648 [INFO] Sorting data by VIN (A-Z) and Price (descending)...
+2025-05-27 15:36:48,754 [INFO] Calculating 'Count' based on VIN, Price, Prev Program, Prev Price...
+2025-05-27 15:36:48,914 [INFO] Filtering rows where Count == 1...
+2025-05-27 15:36:48,915 [INFO] Unique records extracted: 11
+2025-05-27 15:36:48,915 [INFO] Writing filtered records to output_filtered.xlsx
+2025-05-27 15:59:28,465 [INFO] Reading Excel file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx
+2025-05-27 15:59:37,628 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-27 15:59:37,714 [INFO] Calculating 'Count' column
+2025-05-27 15:59:37,740 [INFO] Filtered rows where Count == 1: 999
+2025-05-27 15:59:37,740 [INFO] Unique VINs extracted: 988
+2025-05-27 15:59:37,740 [INFO] Writing VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-27 15:59:37,784 [INFO] Processing completed successfully.
+2025-05-27 16:09:57,102 [INFO] Reading Excel file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx
+2025-05-27 16:10:10,703 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-27 16:10:10,804 [INFO] Calculating 'Count' column
+2025-05-27 16:10:10,830 [INFO] Filtered rows where Count == 1: 999
+2025-05-27 16:10:10,830 [INFO] Writing VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-27 16:10:10,830 [ERROR] Error processing file: 'DataFrame' object has no attribute 'to_frame'
+Traceback (most recent call last):
+  File "C:\Users\hitesh.paliwal\Desktop\ExcelProject\excel_processing.py", line 52, in process_excel
+    filtered_df.to_frame().to_excel(output_vin_path, index=False, engine='openpyxl')
+  File "C:\Users\hitesh.paliwal\Desktop\ExcelProject\.venv\lib\site-packages\pandas\core\generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'to_frame'
+2025-05-27 16:11:04,201 [INFO] Reading Excel file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx
+2025-05-27 16:11:18,085 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-27 16:11:18,185 [INFO] Calculating 'Count' column
+2025-05-27 16:11:18,210 [INFO] Filtered rows where Count == 1: 999
+2025-05-27 16:11:18,210 [INFO] Writing VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-27 16:11:18,263 [INFO] Processing completed successfully.
