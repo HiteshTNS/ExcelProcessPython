@@ -114,3 +114,27 @@
 2025-05-28 14:18:09,532 [INFO] Filtered rows where Count == 1: 999
 2025-05-28 14:18:10,015 [INFO] Filtered VINs written to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
 2025-05-28 14:18:10,015 [INFO] Processing completed in 0.97 seconds.
+2025-05-28 15:40:55,607 [INFO] Detected CSV (.csv) file format.
+2025-05-28 15:40:55,950 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 15:40:56,272 [INFO] Filtered VINs written to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 15:40:56,272 [INFO] Processing completed in 0.67 seconds.
+2025-05-28 15:41:13,428 [INFO] Detected Excel (.xlsx) file format.
+2025-05-28 15:41:23,728 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 15:41:23,788 [INFO] Filtered VINs written to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 15:41:23,788 [INFO] Processing completed in 10.36 seconds.
+2025-05-28 16:24:03,304 [INFO] Detected Excel (.xlsx) file format.
+2025-05-28 16:24:13,365 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 16:24:13,431 [INFO] Filtered VINs written to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 16:24:13,433 [INFO] Processing completed in 10.13 seconds.
+2025-05-28 16:29:41,359 [INFO] Detected Excel (.xlsx) file format.
+2025-05-28 16:29:51,568 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 16:29:51,630 [INFO] Data exported successfully to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 16:29:51,630 [INFO] Processing completed in 10.27 seconds.
+2025-05-28 16:30:20,032 [INFO] Detected Excel (.xlsx) file format.
+2025-05-28 16:30:30,040 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 16:30:30,060 [INFO] Data exported successfully to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.csv
+2025-05-28 16:30:30,060 [INFO] Processing completed in 10.03 seconds.
+2025-05-28 17:11:16,783 [INFO] Detected Excel (.xlsx) file format.
+2025-05-28 17:11:26,409 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 17:11:26,428 [INFO] Data exported successfully to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.csv
+2025-05-28 17:11:26,428 [INFO] Processing completed in 9.65 seconds.
