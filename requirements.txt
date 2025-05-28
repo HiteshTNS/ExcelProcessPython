@@ -3,3 +3,4 @@ pandas
 openpyxl
 pyexcelerate
 ray
+fastexcel=0.12.0]
