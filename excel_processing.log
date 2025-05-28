@@ -1,0 +1,116 @@
+2025-05-28 11:52:17,349 [INFO] Reading Excel file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx
+2025-05-28 11:52:26,746 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-28 11:52:26,850 [INFO] Calculating 'Count' column (countifs-like)
+2025-05-28 11:52:26,888 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 11:52:26,889 [INFO] Writing VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 11:52:26,961 [INFO] Processing completed successfully.
+2025-05-28 11:52:26,962 [INFO] Total time taken: 9.61 seconds
+2025-05-28 12:25:40,065 [INFO] Reading Excel file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx
+2025-05-28 12:25:53,279 [INFO] Columns found: ['Legacy Index', 'Program Code', 'Description', 'Dealer Code', 'Dealer Name', 'Member Number', 'Transaction Type', 'First Name', 'Last Name', 'Address', 'City', 'State', 'Zip', 'Country', 'Term Miles', 'Term', 'Start Date', 'Start Miles', 'VIN', 'Make', 'Model', 'Tracking', 'Price', 'Prev Program', 'Prev Price', 'Submitted By', 'End Date']
+2025-05-28 12:25:53,292 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-28 12:25:53,394 [INFO] Calculating 'Count' column (COUNTIFS-like)
+2025-05-28 12:25:53,417 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 12:25:53,418 [INFO] Writing filtered VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 12:25:53,489 [INFO] Processing completed successfully.
+2025-05-28 12:25:53,490 [INFO] Total time taken: 13.42 seconds
+2025-05-28 12:26:08,690 [INFO] Reading Excel file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx
+2025-05-28 12:26:22,895 [INFO] Columns found: ['Legacy Index', 'Program Code', 'Description', 'Dealer Code', 'Dealer Name', 'Member Number', 'Transaction Type', 'First Name', 'Last Name', 'Address', 'City', 'State', 'Zip', 'Country', 'Term Miles', 'Term', 'Start Date', 'Start Miles', 'VIN', 'Make', 'Model', 'Tracking', 'Price', 'Prev Program', 'Prev Price', 'Submitted By', 'End Date']
+2025-05-28 12:26:22,913 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-28 12:26:23,031 [INFO] Calculating 'Count' column (COUNTIFS-like)
+2025-05-28 12:26:23,055 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 12:26:23,056 [INFO] Writing filtered VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 12:26:23,131 [INFO] Processing completed successfully.
+2025-05-28 12:26:23,131 [INFO] Total time taken: 14.44 seconds
+2025-05-28 12:26:33,763 [INFO] Reading Excel file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx
+2025-05-28 12:26:47,864 [INFO] Columns found: ['Legacy Index', 'Program Code', 'Description', 'Dealer Code', 'Dealer Name', 'Member Number', 'Transaction Type', 'First Name', 'Last Name', 'Address', 'City', 'State', 'Zip', 'Country', 'Term Miles', 'Term', 'Start Date', 'Start Miles', 'VIN', 'Make', 'Model', 'Tracking', 'Price', 'Prev Program', 'Prev Price', 'Submitted By', 'End Date']
+2025-05-28 12:26:47,880 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-28 12:26:47,982 [INFO] Calculating 'Count' column (COUNTIFS-like)
+2025-05-28 12:26:48,008 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 12:26:48,008 [INFO] Writing filtered VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 12:26:48,076 [INFO] Processing completed successfully.
+2025-05-28 12:26:48,076 [INFO] Total time taken: 14.31 seconds
+2025-05-28 12:26:56,793 [INFO] Reading Excel file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx
+2025-05-28 12:27:10,520 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-28 12:27:10,660 [INFO] Calculating 'Count' column (countifs-like)
+2025-05-28 12:27:10,691 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 12:27:10,691 [INFO] Writing VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 12:27:10,768 [INFO] Processing completed successfully.
+2025-05-28 12:27:10,768 [INFO] Total time taken: 13.97 seconds
+2025-05-28 12:27:30,678 [INFO] Reading Excel file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx
+2025-05-28 12:27:44,618 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-28 12:27:44,734 [INFO] Calculating 'Count' column (countifs-like)
+2025-05-28 12:27:44,764 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 12:27:44,765 [INFO] Writing VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 12:27:44,854 [INFO] Processing completed successfully.
+2025-05-28 12:27:44,854 [INFO] Total time taken: 14.18 seconds
+2025-05-28 13:05:54,660 [INFO] Reading Excel file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx
+2025-05-28 13:06:08,009 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-28 13:06:08,123 [INFO] Calculating 'Count' column (countifs-like)
+2025-05-28 13:06:08,152 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 13:06:08,154 [INFO] Writing VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 13:06:08,247 [INFO] Processing completed successfully.
+2025-05-28 13:06:08,247 [INFO] Total time taken: 13.59 seconds
+2025-05-28 13:06:15,572 [INFO] Reading Excel file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx
+2025-05-28 13:06:29,447 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-28 13:06:29,574 [INFO] Calculating 'Count' column (countifs-like)
+2025-05-28 13:06:29,609 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 13:06:29,610 [INFO] Writing VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 13:06:29,689 [INFO] Processing completed successfully.
+2025-05-28 13:06:29,689 [INFO] Total time taken: 14.12 seconds
+2025-05-28 13:06:57,397 [INFO] Reading Excel file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx
+2025-05-28 13:07:11,001 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-28 13:07:11,118 [INFO] Calculating 'Count' column (countifs-like)
+2025-05-28 13:07:11,146 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 13:07:11,146 [INFO] Writing VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 13:07:11,224 [INFO] Processing completed successfully.
+2025-05-28 13:07:11,224 [INFO] Total time taken: 13.83 seconds
+2025-05-28 13:11:45,759 [INFO] Reading Excel file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx
+2025-05-28 13:11:59,298 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-28 13:11:59,397 [INFO] Calculating 'Count' column (countifs-like)
+2025-05-28 13:11:59,420 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 13:11:59,421 [INFO] Writing VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 13:11:59,487 [INFO] Processing completed successfully.
+2025-05-28 13:11:59,487 [INFO] Total time taken: 13.73 seconds
+2025-05-28 13:14:06,026 [INFO] Reading Excel file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx
+2025-05-28 13:14:19,711 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-28 13:14:19,814 [INFO] Calculating 'Count' column (countifs-like)
+2025-05-28 13:14:19,837 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 13:14:19,838 [INFO] Writing VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 13:14:19,906 [INFO] Processing completed successfully.
+2025-05-28 13:14:19,906 [INFO] Total time taken: 13.88 seconds
+2025-05-28 13:17:20,029 [INFO] Detected Excel (.xlsx) file format.
+2025-05-28 13:17:35,213 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 13:17:35,293 [INFO] Filtered VINs written to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 13:17:35,294 [INFO] Processing completed in 15.27 seconds.
+2025-05-28 13:20:03,260 [INFO] Detected CSV (.csv) file format.
+2025-05-28 13:20:03,751 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 13:20:04,291 [INFO] Filtered VINs written to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 13:20:04,291 [INFO] Processing completed in 1.03 seconds.
+2025-05-28 14:15:07,441 [INFO] Converting XLSX to CSV: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx
+2025-05-28 14:15:21,861 [INFO] Converted to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.csv
+2025-05-28 14:15:21,874 [INFO] Reading file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.csv
+2025-05-28 14:15:22,226 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-28 14:15:22,312 [INFO] Calculating 'Count' column (countifs-like)
+2025-05-28 14:15:22,332 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 14:15:22,333 [INFO] Writing filtered VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 14:15:22,387 [INFO] Processing completed successfully.
+2025-05-28 14:15:22,387 [INFO] Total time taken: 14.95 seconds
+2025-05-28 14:15:37,621 [INFO] Reading file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.csv
+2025-05-28 14:15:38,001 [INFO] Sorting by VIN (A-Z) and Price (Largest to Smallest)
+2025-05-28 14:15:38,100 [INFO] Calculating 'Count' column (countifs-like)
+2025-05-28 14:15:38,121 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 14:15:38,122 [INFO] Writing filtered VINs to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 14:15:38,610 [INFO] Processing completed successfully.
+2025-05-28 14:15:38,610 [INFO] Total time taken: 0.99 seconds
+2025-05-28 14:16:17,386 [INFO] Detected CSV (.csv) file format.
+2025-05-28 14:16:17,977 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 14:16:18,501 [INFO] Filtered VINs written to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 14:16:18,502 [INFO] Processing completed in 1.12 seconds.
+2025-05-28 14:16:31,133 [INFO] Detected Excel (.xlsx) file format.
+2025-05-28 14:16:44,640 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 14:16:44,715 [INFO] Filtered VINs written to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 14:16:44,715 [INFO] Processing completed in 13.58 seconds.
+2025-05-28 14:18:09,044 [INFO] Detected CSV (.csv) file format.
+2025-05-28 14:18:09,532 [INFO] Filtered rows where Count == 1: 999
+2025-05-28 14:18:10,015 [INFO] Filtered VINs written to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx
+2025-05-28 14:18:10,015 [INFO] Processing completed in 0.97 seconds.
