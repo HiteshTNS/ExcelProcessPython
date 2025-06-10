@@ -1,6 +1,3 @@
-modin[ray]
-pandas
-openpyxl
-pyexcelerate
-ray
-fastexcel=0.12.0]
+#For Filetered VINS
+pandas>=1.3.0
+openpyxl>=3.0.10

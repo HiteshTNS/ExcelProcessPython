@@ -17,7 +17,9 @@ logger = logging.getLogger()
 
 REQUIRED_COLUMNS = ['VIN', 'Term', 'Start Date', 'Price']
 
-
+"""
+Function to read the Input file for the path specified based on it's format .csv or .xlsx
+"""
 def read_input_file(file_path: str) -> pd.DataFrame:
     try:
         file_extension = os.path.splitext(file_path)[1].lower()
@@ -36,7 +38,9 @@ def read_input_file(file_path: str) -> pd.DataFrame:
         logger.error(f"Error reading input file: {e}", exc_info=True)
         raise
 
-
+"""
+Function to validate the colums. Make's sure that required columns are present which are defined in the REQUIRED_COLUMNS LIST
+"""
 def validate_columns(data_frame: pd.DataFrame):
     try:
         missing_cols = [col for col in REQUIRED_COLUMNS if col not in data_frame.columns]
@@ -46,7 +50,9 @@ def validate_columns(data_frame: pd.DataFrame):
         logger.error(f"Column validation failed: {e}", exc_info=True)
         raise
 
-
+"""
+Function to process the data. Converts the price column to numeric data type and Sorts the VIN Column in ascending order and price column in Decending order
+"""
 def preprocess_data(data_frame: pd.DataFrame) -> pd.DataFrame:
     try:
         data_frame['Price'] = pd.to_numeric(data_frame['Price'], errors='coerce')
@@ -57,7 +63,9 @@ def preprocess_data(data_frame: pd.DataFrame) -> pd.DataFrame:
         logger.error(f"Error during preprocessing: {e}", exc_info=True)
         raise
 
-
+"""
+Function to apply the comparison formula and evaluate count as 0 or 1 based on the match
+"""
 def calculate_count_column(data_frame: pd.DataFrame) -> pd.DataFrame:
     try:
         data_frame['Count'] = (
@@ -71,7 +79,9 @@ def calculate_count_column(data_frame: pd.DataFrame) -> pd.DataFrame:
         logger.error(f"Error calculating 'Count' column: {e}", exc_info=True)
         raise
 
-
+"""
+Function filter the VIN's Which satisfies the formula and has the count value as 1
+"""
 def filter_vins_with_count_one(data_frame: pd.DataFrame) -> pd.DataFrame:
     try:
         filtered_df = data_frame[data_frame['Count'] == 1][['VIN']]
@@ -81,7 +91,11 @@ def filter_vins_with_count_one(data_frame: pd.DataFrame) -> pd.DataFrame:
         logger.error(f"Error filtering VINs: {e}", exc_info=True)
         raise
 
-
+"""
+Function to write Data_frame into the file based on the output path. 
+If output path ends with .csv it will write in .csv file and 
+If output path ends with .xlsx it will write in .xlsx file
+"""
 def export_dataframe(data_frame: pd.DataFrame, output_path: str):
     try:
         if output_path.lower().endswith('.xlsx'):
@@ -95,7 +109,9 @@ def export_dataframe(data_frame: pd.DataFrame, output_path: str):
         logger.error(f"Error exporting DataFrame: {e}", exc_info=True)
         raise
 
-
+"""
+This function accepts the input file and output file and process all the logic
+"""
 def process_excel(file_path: str, output_file_path: str):
     start_time = time.time()
     try:
@@ -112,5 +128,5 @@ def process_excel(file_path: str, output_file_path: str):
 
 if __name__ == "__main__":
     input_file = r"C:\Users\hitesh.paliwal\Desktop\ExcelProject\Invoice_Detail_SGD202502.xlsx"
-    output_file = r"C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.csv"  # Can also use .csv
+    output_file = r"C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins.xlsx"  # Can also use .csv
     process_excel(input_file, output_file)

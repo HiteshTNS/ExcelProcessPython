@@ -1,0 +1,42 @@
+2025-06-10 12:36:54,109 [INFO] Detected file encoding: UTF-8-SIG
+2025-06-10 12:36:54,109 [INFO] Reading file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\CPR Invoice\Input\CPR Insurance template - April(Sheet1).csv
+2025-06-10 12:36:54,118 [INFO] File read successfully with normalized headers.
+2025-06-10 12:36:54,120 [INFO] Processing rows...
+2025-06-10 12:36:54,133 [ERROR] Row 79: Claim, Contact, and Insured all missing. Aborting.
+2025-06-10 12:36:54,142 [WARNING] Skipping row 79 due to error: Required fields missing
+2025-06-10 12:36:54,142 [INFO] Finished processing file.
+2025-06-10 12:36:54,153 [INFO] Output written to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\CPR Invoice\Output\output_fee_data.json
+2025-06-10 12:36:54,153 [INFO] Standard Fee Records: 70
+2025-06-10 12:36:54,153 [INFO] Non-Standard Fee Records: 7
+2025-06-10 12:40:00,733 [ERROR] Failed to detect file encoding: [Errno 2] No such file or directory: 'C:\\Users\\hitesh.paliwal\\Desktop\\ExcelProject\\CPR Invoice\\Input\\CPR Insurance template - April(Sheet1).txt'
+2025-06-10 12:40:00,734 [CRITICAL] Script failed: [Errno 2] No such file or directory: 'C:\\Users\\hitesh.paliwal\\Desktop\\ExcelProject\\CPR Invoice\\Input\\CPR Insurance template - April(Sheet1).txt'
+2025-06-10 12:43:07,106 [INFO] Detected file encoding: UTF-8-SIG
+2025-06-10 12:43:07,107 [INFO] Reading file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\CPR Invoice\Input\CPR Insurance template - April(Sheet1).csv
+2025-06-10 12:43:07,116 [INFO] File read successfully with normalized headers.
+2025-06-10 12:43:07,117 [INFO] Processing rows...
+2025-06-10 12:43:07,130 [ERROR] Row 79: Claim, Contact, and Insured all missing. Aborting.
+2025-06-10 12:43:07,130 [WARNING] Skipping row 79 due to error: Required fields missing
+2025-06-10 12:43:07,131 [INFO] Finished processing file.
+2025-06-10 12:43:07,142 [INFO] Output written to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\CPR Invoice\Output\output_fee_data.json
+2025-06-10 12:43:07,142 [INFO] Standard Fee Records: 70
+2025-06-10 12:43:07,142 [INFO] Non-Standard Fee Records: 7
+2025-06-10 12:44:41,582 [INFO] Detected file encoding: UTF-8-SIG
+2025-06-10 12:44:41,582 [INFO] Reading file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\CPR Invoice\Input\CPR Insurance template - April(Sheet1).csv
+2025-06-10 12:44:41,591 [INFO] File read successfully with normalized headers.
+2025-06-10 12:44:41,593 [INFO] Processing rows...
+2025-06-10 12:44:41,606 [ERROR] Row 79: Claim, Contact, and Insured all missing. Aborting.
+2025-06-10 12:44:41,606 [WARNING] Skipping row 79 due to error: Required fields missing
+2025-06-10 12:44:41,606 [INFO] Finished processing file.
+2025-06-10 12:44:41,619 [INFO] Output written to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\CPR Invoice\Output\output_fee_data.json
+2025-06-10 12:44:41,619 [INFO] Standard Fee Records: 70
+2025-06-10 12:44:41,619 [INFO] Non-Standard Fee Records: 7
+2025-06-10 12:46:24,276 [INFO] Detected file encoding: UTF-8-SIG
+2025-06-10 12:46:24,276 [INFO] Reading file: C:\Users\hitesh.paliwal\Desktop\ExcelProject\CPR Invoice\Input\CPR Insurance template - April(Sheet1).csv
+2025-06-10 12:46:24,288 [INFO] File read successfully with normalized headers.
+2025-06-10 12:46:24,290 [INFO] Processing rows...
+2025-06-10 12:46:24,307 [ERROR] Row 79: Claim, Contact, and Insured all missing. Aborting.
+2025-06-10 12:46:24,307 [WARNING] Skipping row 79 due to error: Required fields missing
+2025-06-10 12:46:24,307 [INFO] Finished processing file.
+2025-06-10 12:46:24,319 [INFO] Output written to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\CPR Invoice\Output\output_fee_data.json
+2025-06-10 12:46:24,319 [INFO] Standard Fee Records: 70
+2025-06-10 12:46:24,319 [INFO] Non-Standard Fee Records: 7
