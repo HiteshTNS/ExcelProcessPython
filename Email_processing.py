@@ -144,13 +144,13 @@ def main():
 
     # Send Email
     send_mail_notification(
-        sender_mail_id="i.com",
-        receiver_mail_id=["h.com","@gmail.com"],
-        cc_mail_id=["h.com"],
+        sender_mail_id="ikandasa@sgintl.com",
+        receiver_mail_id=["hitesh.paliwal@thinknsolutions.com", "hiteshpaliwal1703@gmail.com"],
+        cc_mail_id=["surya.prakash@thinknsolutions.com","shafeeq.kadhar@thinknsolutions.com"],
         file_related_detail=file_related_detail,
         attachment_data=xlsx_data,
         attachment_filename="error_report.xlsx",
-        sender_password=""
+        sender_password="IN@Office389"
     )
 
 
