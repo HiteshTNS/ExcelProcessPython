@@ -656,3 +656,41 @@ TypeError: object of type 'int' has no len()
 2025-06-20 17:29:06,244 [INFO] Filtered rows where Count == 1: 71
 2025-06-20 17:29:06,250 [INFO] Data exported successfully to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins2.csv
 2025-06-20 17:29:06,250 [INFO] Processing completed in 0.03 seconds.
+2025-06-20 18:18:16,088 [INFO] Detected CSV (.csv) file format.
+2025-06-20 18:18:16,112 [INFO] Filtered rows where Count == 1: 71
+2025-06-20 18:18:16,117 [INFO] Data exported successfully to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins2.csv
+2025-06-20 18:18:16,117 [INFO] Processing completed in 0.03 seconds.
+2025-06-20 18:18:35,172 [INFO] Detected CSV (.csv) file format.
+2025-06-20 18:18:35,192 [INFO] Filtered rows where Count == 1: 71
+2025-06-20 18:18:35,198 [INFO] Data exported successfully to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins2.csv
+2025-06-20 18:18:35,198 [INFO] Processing completed in 0.03 seconds.
+2025-06-20 18:20:54,341 [INFO] Detected CSV (.csv) file format.
+2025-06-20 18:20:54,367 [INFO] Filtered rows where Count == 1: 71
+2025-06-20 18:20:54,371 [INFO] Data exported successfully to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins2.csv
+2025-06-20 18:20:54,372 [INFO] Processing completed in 0.03 seconds.
+2025-06-20 18:23:41,025 [INFO] Detected CSV (.csv) file format.
+2025-06-20 18:23:41,047 [INFO] Filtered rows where Count == 1: 71
+2025-06-20 18:23:41,052 [INFO] Data exported successfully to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins2.csv
+2025-06-20 18:23:41,052 [INFO] Processing completed in 0.03 seconds.
+2025-06-20 18:24:20,381 [INFO] Detected CSV (.csv) file format.
+2025-06-20 18:24:20,403 [INFO] Filtered rows where Count == 1: 71
+2025-06-20 18:24:20,408 [INFO] Data exported successfully to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins2.csv
+2025-06-20 18:24:20,408 [INFO] Processing completed in 0.03 seconds.
+2025-06-20 18:28:23,981 [INFO] Detected Excel (.xlsx) file format.
+2025-06-20 18:28:38,851 [ERROR] Processing aborted: Missing required columns: ['FORM', 'PURE RISK TYPE']
+2025-06-20 18:29:47,627 [INFO] Detected Excel (.xlsx) file format.
+2025-06-20 18:30:01,592 [INFO] Filtered rows where Count == 1: 999
+2025-06-20 18:30:02,420 [INFO] Data exported successfully to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins1.xlsx
+2025-06-20 18:30:02,420 [INFO] Processing completed in 14.79 seconds.
+2025-06-20 18:31:10,932 [INFO] Detected Excel (.xlsx) file format.
+2025-06-20 18:31:24,910 [INFO] Filtered rows where Count == 1: 999
+2025-06-20 18:31:25,662 [INFO] Data exported successfully to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins1.xlsx
+2025-06-20 18:31:25,662 [INFO] Processing completed in 14.73 seconds.
+2025-06-20 18:31:47,773 [INFO] Detected Excel (.xlsx) file format.
+2025-06-20 18:32:03,256 [INFO] Filtered rows where Count == 1: 999
+2025-06-20 18:32:04,039 [INFO] Data exported successfully to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins1.xlsx
+2025-06-20 18:32:04,040 [INFO] Processing completed in 16.27 seconds.
+2025-06-20 18:32:34,060 [INFO] Detected Excel (.xlsx) file format.
+2025-06-20 18:32:47,373 [INFO] Filtered rows where Count == 1: 999
+2025-06-20 18:32:48,111 [INFO] Data exported successfully to: C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins1.xlsx
+2025-06-20 18:32:48,111 [INFO] Processing completed in 14.05 seconds.

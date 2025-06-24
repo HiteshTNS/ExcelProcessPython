@@ -16,15 +16,15 @@ logging.basicConfig(
 )
 logger = logging.getLogger()
 
-# Define processing configurations
+# File processing configurations
 PROCESSING_CONFIGS = {
-    "default": {
+    "default": { #For First Filtration
         "required_columns": ['VIN', 'TERM', 'START DATE', 'PRICE'],
         "sort_by": [('VIN', True), ('PRICE', False)],
         "count_formula": "filtration_for_file_1",
         "export_columns": 'ALL'
     },
-    "custom_file_2": {
+    "custom_file_2": { #For second Filtration
         "required_columns": ['FORM', 'VIN', 'PURE RISK TYPE'],
         "sort_by": [('FORM', True), ('VIN', True), ('PURE RISK TYPE', True)],
         "count_formula": "filtration_for_file_2",
@@ -199,11 +199,11 @@ if __name__ == "__main__":
     #     config_key="default"
     # )
 
-    process_excel(
-        file_path=r"C:\Users\hitesh.paliwal\Desktop\ExcelProject\VAS Roadside dupes 2025-05-06T1409.csv",
-        output_file_path=r"C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins2.csv",
-        config_key="custom_file_2"
-    )
+    # process_excel(
+    #     file_path=r"C:\Users\hitesh.paliwal\Desktop\ExcelProject\VAS Roadside dupes 2025-05-06T1409.csv",
+    #     output_file_path=r"C:\Users\hitesh.paliwal\Desktop\ExcelProject\filtered_vins2.csv",
+    #     config_key="custom_file_2"
+    # )
 
     # print("\nFiltered Records for File 1 (Wrapped JSON):")
     # print(json.dumps({"filtered_data_file1": filtered_records_file1}, indent=2))
